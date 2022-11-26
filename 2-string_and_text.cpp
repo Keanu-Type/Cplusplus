@@ -12,11 +12,12 @@ int main(){
     string sentence = "My Name is Keaz P. Berches";
     cout << sentence.length() << endl; //length() how long the length of your sentence is
     cout << sentence[0] <<endl; //sentence[0] means you will access the first char of the variable
-    
     string new_sentence = sentence;
-    new_sentence[15] ='nu';   //"it will replace 'z ' with 'nu'. so instead of Keaz P. Berches it will be KeanuP. Berches "
+    new_sentence[14] = 'nu';   //"it will replace 'z ' with 'nu'. so instead of Keaz P. Berches it will be KeanuP. Berches "
     cout << new_sentence <<endl;
     cout << new_sentence.find("Berches",0); //find Berches in the sentence. the 0 means the count will start at 0th and it will cout what place "Berches" is
+    const char * planet {"Earth. hellow"};  //LESS MEMORY than planet = "Earth.hellow"; declaration
+    cout << planet <<endl; 
     return 0;
 
 }
