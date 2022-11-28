@@ -23,7 +23,7 @@ auto result = [](double a, double b)->double{
 /**/
 #include <iostream>
 using namespace std;
-
+//
 
 int main(){
 
